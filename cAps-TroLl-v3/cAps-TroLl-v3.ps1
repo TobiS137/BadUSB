@@ -1,6 +1,1 @@
-while(1) {
-    $random = Get-Random -Minimum 1 -Maximum 5
-    Start-Sleep -Second $random
-    $wsh = New-Object -ComObject WScript.Shell
-    $wsh.SendKeys('{CAPSLOCK}')
-}
+schtasks /create /tn "CapsLockTask" /tr "C:\Users\Administrator\Documents\cAps-TroLl-v2\capslock.exe" /sc minute /mo 1 /rl highest /f /ru "$env:USERNAME"
