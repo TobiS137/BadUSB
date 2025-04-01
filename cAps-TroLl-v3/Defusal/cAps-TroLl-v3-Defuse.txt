@@ -1,0 +1,25 @@
+REM Title: cAps-TroLl-v3-Defuse
+REM Author: @tobis137 | https://github.com/TobiS137
+REM Description: Removes files and background tasks to disable and remove my cAps-TroLl-v3 script.
+REM Target: Windows 10
+
+REM *SETUP*
+REM some setup for dukie script.
+DEFAULT_DELAY 100
+				
+CTRL-ALT DELETE
+DELAY 100
+TAB
+TAB
+TAB
+TAB
+ENTER
+DELAY 750
+GUI r
+STRING powershell -w h -NoP -Ep Bypass -C "irm https://raw.githubusercontent.com/TobiS137/BadUSB/refs/heads/main/cAps-TroLl-v3/Defusal/cAps-TroLl-v3-Defuse.ps1 | iex"
+CTRL-SHIFT ENTER
+DELAY 500
+ALT y
+DELAY 300
+ALT TAB
+ALT F4
