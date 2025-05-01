@@ -8,7 +8,7 @@ REM some setup for dukie script.
 DEFAULT_DELAY 100
 
 CTRL-ALT DELETE
-DELAY 100
+DELAY 250
 TAB
 TAB
 TAB
@@ -25,4 +25,5 @@ ALT y
 REM Script ends here - Remaining inputs close task manager after finishing script execution
 DELAY 300
 ALT TAB
+DELAY 150
 ALT F4
