@@ -1,1 +1,14 @@
-
+WinSystemMonitor.exe
+SystemUpdSrv.exe
+WindowsHostProcess.exe
+TaskSvc.exe
+FileManagerCap.exe
+WinUpdateSvc.exe
+WinSysMgr.exe
+NetDvr.exe
+SysCoreSvc.exe
+WinProcMon.exe
+SysMgmt.exe
+NetUpdt.exe
+AppManagerCap.exe
+RuntimeCap.exe
