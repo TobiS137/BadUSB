@@ -8,15 +8,11 @@ REM some setup for dukie script.
 DEFAULT_DELAY 100
 
 CTRL-ALT DELETE
-DELAY 250
+DELAY 500
 TAB
-DELAY 100
 TAB
-DELAY 100
 TAB
-DELAY 100
 TAB
-DELAY 100
 ENTER
 DELAY 750
 REM Script starts here - First inputs forces the system out of any potential VM's running other operating systems. 
